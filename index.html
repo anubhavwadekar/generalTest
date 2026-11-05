@@ -3,142 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anubhav's Website</title>
+    <title>Website Live | Success</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #f4f1ee;
-            color: #333;
-        }
-
-        /* Navbar */
-        .navbar {
-            background: #3e2723;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-        }
-
-        .navbar h1 {
-            color: white;
-            margin: 0;
-            letter-spacing: 1px;
-        }
-
-        /* Hero */
-        .hero {
-            padding: 70px 20px;
-            text-align: center;
-            background: linear-gradient(135deg, #6d4c41, #8d6e63);
-            color: white;
-        }
-
-        .hero h2 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
-
-        /* Sections */
-        .section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        /* Menu */
-        .menu {
-            background: #d7ccc8;
-        }
-
-        .menu h3 {
-            margin-top: 20px;
-        }
-
-        .menu p {
-            margin: 5px 0;
-        }
-
-        /* Button */
-        .btn {
-            padding: 12px 20px;
-            background: #25D366;
-            color: white;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 1em;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #1ebe5d;
-            transform: scale(1.05);
-        }
-
-        /* Footer */
-        .footer {
-            background: #3e2723;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <h1>Anubhav Wadekar</h1>
-    </div>
+    <div class="container">
 
-    <!-- Hero -->
-    <div class="hero">
-        <h2>This website is now live 🚀</h2>
-        <p>Welcome to my web</p>
-    </div>
+        <div class="status-icon">✓</div>
 
-    <!-- About -->
-    <div class="section">
-        <h2>About Us</h2>
-        <p>Treat from my side 😄</p>
-    </div>
+        <p class="tagline">SYSTEM STATUS: ONLINE</p>
 
-    <!-- Menu -->
-    <div class="section menu">
-        <h2>Our Menu</h2>
+        <h1>Your Website is <span>Live!</span></h1>
 
-        <h3>☕ Coffee</h3>
-        <p>Espresso - ₹100</p>
-        <p>Cappuccino - ₹150</p>
-        <p>Latte - ₹180</p>
+        <p class="description">
+            Congratulations! Your website is successfully deployed
+            and everything is working as expected.
+        </p>
 
-        <h3>🥪 Snacks</h3>
-        <p>Veg Sandwich - ₹120</p>
-        <p>Cheese Toast - ₹140</p>
-        <p>French Fries - ₹100</p>
-    </div>
+        <div class="status-box">
+            <div class="status-item">
+                <span class="dot"></span>
+                Website Status
+                <strong>Operational</strong>
+            </div>
 
-    <!-- Contact -->
-    <div class="section">
-        <h2>Contact Us</h2>
-        <p>📍 Your City</p>
-        <p>📞 9876543210</p>
+            <div class="status-item">
+                <span class="dot"></span>
+                Server Status
+                <strong>Running</strong>
+            </div>
+        </div>
 
-        <a href="https://wa.me/919876543210">
-            <button class="btn">Chat on WhatsApp</button>
-        </a>
-    </div>
+        <div class="buttons">
+            <button class="primary-btn" onclick="alert('Your website is working perfectly!')">
+                Test Website
+            </button>
 
-    <!-- Footer -->
-    <div class="footer">
-        <p>© 2026 anubhav.wadekar</p>
+            <button class="secondary-btn" onclick="location.reload()">
+                Refresh Page
+            </button>
+
+            <button class="outline-btn" onclick="window.location.href='mailto:admin@example.com'">
+                Contact Us
+            </button>
+        </div>
+
+        <footer>
+            <p>© 2026 | Successfully Deployed 🚀</p>
+        </footer>
+
     </div>
 
 </body>
